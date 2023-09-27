@@ -301,11 +301,11 @@ nav .fly-item {
     }
 
     .text-body h1 {
-        font-size: 6rem;
+        font-size: 9rem;
     }
 
     .text-body span {
-        font-size: calc(1vw + 3rem);
+        font-size: calc(5vw + 3rem);
     }
 
     .space {

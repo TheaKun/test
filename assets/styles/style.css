@@ -295,13 +295,13 @@ nav .fly-item {
 @media (max-width:991px) {
     .text-body {
         position: relative;
-        top: 50px;
+        top: -10px;
         display: block;
         text-align: center;
     }
 
     .text-body h1 {
-        font-size: 9rem;
+        font-size: 6rem;
     }
 
     .text-body span {
@@ -366,10 +366,26 @@ input {
     justify-content: space-between;
     gap: 0.6em;
 }
+.container-box .wrapper button {
+    color: white;
+    position: relative;
+    margin-top: 50px;
+    border-radius: 10px;
+    padding: 10px 100px;
+    background-color: blue;
+    border: none;
+    font-family: "Rubik";
+    font-size: 15px;
+    font-weight: 500;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
 textarea {
     font-size: 1.25em;
     padding: 0.6em 1em;
     margin-top: 0.5em;
+    font-weight: 600;
     border-radius: 0.5em;
     border: 3px solid #a1a0a4;
     resize: none;

@@ -301,11 +301,11 @@ nav .fly-item {
     }
 
     .text-body h1 {
-        font-size: 6rem;
+        font-size: 5rem;
     }
 
     .text-body span {
-        font-size: calc(5vw + 3rem);
+        font-size: calc(3vw + 3rem);
     }
 
     .space {
@@ -345,6 +345,8 @@ input::placeholder {
     font-family: 'Rubik';
 }
 input {
+    font-weight: 600;
+    font-family: "Rubik";
     width: 100%;
     font-size: 1.25em;
     padding: 0.6em 1em;
@@ -412,9 +414,11 @@ textarea {
         width: 100%;
         font-size: 14px;
     }
-
+    .container-box .wrapper:nth-child(1) {
+        display: block;
+    }
     .container-box .wrapper:nth-child(2) {
         width: 100%;
-        margin: 3.5em auto 0.6em auto;
+        margin: 0px auto 0.6em auto;
     }
 }
